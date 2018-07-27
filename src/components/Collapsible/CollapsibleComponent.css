@@ -1,0 +1,20 @@
+ul.collapsible {
+    margin: 0 !important;
+    padding: 0 !important; 
+}
+
+div.collapsible-header {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+div.collapsible-header.active {
+    border-left: 6px #56ccb1 solid;
+}
+
+div.collapsible-body {
+    padding: 0 10px;
+    margin: 0;
+}
+
+/* #sidenav_0.side-nav li */
