@@ -10,14 +10,14 @@ class Login extends Component {
         <main className="login-main">
           <div className="container">
             <div className="login-page">
-              <div className="left-box valign-wrapper" style={{backgroundColor: '#56CCB1', backgroundImage: 'url("/assets/background_login-9386dac4cc9341f3613054cef72d0fa76fe21efe11b7bc651f55d66187808022.png")'}}>
+              <div className="left-box valign-wrapper" style={{backgroundColor: '#56CCB1', backgroundImage: 'url("/background.png")'}}>
                 <div className="outer">
                   <div className="middle">
                     <div className="inner">
-                      <img src='../../../public/medly_big.png' className="circle" />
+                      <img src='/medly_big.png' className="circle" />
                     </div>
                     <div className="inner">
-                      <img src="../../../public/medly_wordmark.png" id="medly-text-logo" />
+                      <img src="/medly_wordmark.png" id="medly-text-logo" />
                     </div>
                     <h5 className="medly-logo-text">Prescriptions Made Easy</h5>
                   </div>
@@ -48,7 +48,7 @@ class Login extends Component {
                             </form>                </div>
                         </div>
                         <div className="card-action">
-                          <a href="#" onclick="document.getElementById('login_form').submit(); return false;" className="waves-effect waves-light btn">Submit</a>
+                          <a href="/home" onclick="document.getElementById('login_form').submit(); return false;" className="waves-effect waves-light btn">Submit</a>
                           <a href="#" onclick="redirectTo('http://devaccounts.medlypharmacy.com/password_reset');" className="right grey-text text-lighten">Forgot
                             Password</a>
                         </div>
