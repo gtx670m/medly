@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,YAAa;EACX,MAAM,EAAE,YAAY;EACpB,OAAO,EAAE,YAAY;EAEnB,wCAAmB;IACjB,WAAW,EAAE,iBAAiB;EAGlC,gCAAmB;IACjB,MAAM,EAAE,YAAY;IACpB,OAAO,EAAE,YAAY;EAEvB,8BAAkB;IAChB,OAAO,EAAE,MAAM;IACf,MAAM,EAAE,CAAC",
+"sources": ["../sass/CollapsibleComponent.scss"],
+"names": [],
+"file": "CollapsibleComponent.css"
+}

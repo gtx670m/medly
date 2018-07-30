@@ -1,0 +1,17 @@
+.collapsible {
+  margin: 0 !important;
+  padding: 0 !important; 
+  .active{
+    .collapsible-header{
+      border-left: 6px #56ccb1 solid;
+    } 
+  }
+  .collapsible-header{
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+  .collapsible-body {
+    padding: 0 10px;
+    margin: 0;
+  }
+}

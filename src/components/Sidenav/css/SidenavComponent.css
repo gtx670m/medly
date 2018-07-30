@@ -1,0 +1,41 @@
+#root .show-on-large {
+  width: 25px;
+  position: relative;
+  top: -45px  !important;
+  left: 18px !important; }
+  #root .show-on-large .material-icons {
+    color: white; }
+#root .side-nav {
+  width: 70%;
+  max-width: 300px;
+  padding-bottom: 1000px; }
+  #root .side-nav .user {
+    color: black;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    height: 120px;
+    background-color: #e9e9e9; }
+    #root .side-nav .user .medly_img img {
+      margin: 0 20px; }
+  #root .side-nav p {
+    margin: 0 !important; }
+  #root .side-nav li {
+    border-bottom: 0.5px #c9c9c9 solid; }
+    #root .side-nav li a {
+      margin: 0;
+      padding: 0; }
+      #root .side-nav li a .material-icons {
+        margin: 0 15px 0 20px !important;
+        color: #464646; }
+
+@media (min-width: 1440px) {
+  #sidenav_0.side-nav {
+    transform: translateX(0px) !important; } }
+/*
+div.userView {
+  height: 128px !important;
+  background-color: rgb(233, 233, 233);
+}*/
+
+/*# sourceMappingURL=SidenavComponent.css.map */

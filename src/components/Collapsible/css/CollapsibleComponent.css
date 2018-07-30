@@ -1,0 +1,13 @@
+.collapsible {
+  margin: 0 !important;
+  padding: 0 !important; }
+  .collapsible .active .collapsible-header {
+    border-left: 6px #56ccb1 solid; }
+  .collapsible .collapsible-header {
+    margin: 0 !important;
+    padding: 0 !important; }
+  .collapsible .collapsible-body {
+    padding: 0 10px;
+    margin: 0; }
+
+/*# sourceMappingURL=CollapsibleComponent.css.map */

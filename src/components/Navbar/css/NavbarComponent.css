@@ -1,0 +1,32 @@
+.nav-wrapper {
+  background-color: #56ccb1 !important; }
+  .nav-wrapper .right hide-on-med-and-down {
+    margin-right: 20px !important; }
+    .nav-wrapper .right hide-on-med-and-down li a {
+      padding: 0 8px !important; }
+  .nav-wrapper #nav-mobile.side-nav {
+    transform: translateX(-100%) !important; }
+  .nav-wrapper .material-icons {
+    color: white !important; }
+  .nav-wrapper .button-collapse {
+    display: block; }
+
+#sidenav-overlay {
+  display: none; }
+
+.drag-target {
+  width: 100% !important;
+  left: 100px !important;
+  top: 70px !important; }
+
+@media (max-width: 1439px) {
+  .nav-wrapper .brand-logo {
+    left: 60px !important;
+    transform: translateX(0px) !important; }
+  .nav-wrapper .button-collapse {
+    display: none !important; } }
+@media (min-width: 1440px) {
+  .nav-wrapper .brand-logo {
+    left: 330px; } }
+
+/*# sourceMappingURL=NavbarComponent.css.map */
