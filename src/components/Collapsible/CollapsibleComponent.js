@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Collapsible, CollapsibleItem } from 'react-materialize';
-import './css/CollapsibleComponent.css';
+import './CollapsibleComponent.scss';
 
 class CollapsibleComponent extends Component {
     render() {
