@@ -1,7 +1,7 @@
 
 import React, { Component } from 'react';
 import { Button, Input } from 'react-materialize';
-import './css/Login.css';
+import './Login.scss';
 
 class Login extends Component {
   render() {
